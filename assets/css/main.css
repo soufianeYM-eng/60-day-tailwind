@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Approach";
+  src: url("../../fonts/Approach-Mono-SemiBold.otf");
+}
+
+
+@layer utilities {
+  .clip-card {
+    clip-path: polygon(0% 0%, 100% 0, 100% 70%, 88% 100%, 0% 100%);
+  }
+}

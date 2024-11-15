@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-60-days-challenge",
+  "version": "1.0.0",
+  "description": "60-day tailwind challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint \"**/*.html\" --fix --debug"
+  },
+  "author": "Soufiane YOUSFI",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "tailwindcss": "^3.4.15"
+  }
+}
